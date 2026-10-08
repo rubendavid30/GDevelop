@@ -1,0 +1,14 @@
+{
+  "name": "gdevelop-android-editor-prototype",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Android test wrapper for the unmodified open-source GDevelop web editor",
+  "scripts": {
+    "build:apk": "node build-apk.cjs",
+    "verify": "node --check build-apk.cjs"
+  },
+  "devDependencies": {
+    "cordova": "12.0.0",
+    "cordova-android": "13.0.0"
+  }
+}

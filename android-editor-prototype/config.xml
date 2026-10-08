@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="io.rubendavid30.gdeditortest" version="0.1.0"
+    xmlns="http://www.w3.org/ns/widgets"
+    xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>GD Editor Test</name>
+    <description>Development-only Android build of the open-source GDevelop editor.</description>
+    <content src="index.html" />
+    <preference name="Fullscreen" value="false" />
+    <preference name="Orientation" value="unspecified" />
+    <preference name="AndroidInsecureFileModeEnabled" value="false" />
+    <preference name="android-minSdkVersion" value="24" />
+    <preference name="android-targetSdkVersion" value="34" />
+    <access origin="https://*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="mailto:*" />
+    <allow-navigation href="https://localhost/*" />
+</widget>
